@@ -35,8 +35,8 @@ module.exports = {
 
   // База данных
 
-  urlDB:          'mongodb+srv://Waii:artemadmin@cluster0.hws9t.mongodb.net/just?retryWrites=true&w=majority',
-  nameDB:         'just',
+  urlDB: 'mongodb+srv://Waii:artemadmin@cluster0.hws9t.mongodb.net/just?retryWrites=true&w=majority',
+  nameDB: 'just',
 
   // Награды за топ
 
