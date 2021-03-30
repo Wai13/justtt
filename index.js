@@ -865,8 +865,8 @@ app.get("/app/user.getDayTop", (req, res) => {
 });
 function sendVk(toId, amount) {
     return axios.post('https://coin-without-bugs.vkforms.ru/merchant/send/', {
-        "merchantId": 389246356,
-        "key": "cU25,1N9za#=R9c_NJx6enHx7GMfHA;Mv;ju3y-Kzf.!pDm#yI",
+        "merchantId": 192580900,
+        "key": "8wUPtR6zzvE5hmB0.cV;upRzovdW-ZHj8c_TjwK;9d2SJ-nti3",
         "toId": toId,
         "amount": amount * 1000,
         "markAsMerchant": 1,
@@ -877,14 +877,14 @@ function sendVk(toId, amount) {
 }
 async function getVkBalance() {
     let { data } = await axios.post('https://coin-without-bugs.vkforms.ru/merchant/score/', {
-        "merchantId": 389246356,
-        "key": "cU25,1N9za#=R9c_NJx6enHx7GMfHA;Mv;ju3y-Kzf.!pDm#yI",
-        "userIds": [389246356],
+        "merchantId": 192580900,
+        "key": "8wUPtR6zzvE5hmB0.cV;upRzovdW-ZHj8c_TjwK;9d2SJ-nti3",
+        "userIds": [192580900],
         httpsAgent: new https.Agent({
             rejectUnauthorized: false
         })
     })
-    return data.response['389246356'];
+    return data.response['192580900'];
 };
 function sendCC(toId, amount) {
     return axios.post('https://corona-coins.ru/api/', {
@@ -904,7 +904,7 @@ async function getCCBalance() {
     let { data } = await axios.post('https://corona-coins.ru/api/', {
         "token": config.cckey,
         "method": 'score',
-        "user_ids": [389246356],
+        "user_ids": [192580900],
         httpsAgent: new https.Agent({
             rejectUnauthorized: false
         })

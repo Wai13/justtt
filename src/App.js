@@ -266,7 +266,7 @@ class App extends React.Component {
         }, 1000)
 
         this.connect()
-        connect.send("VKWebAppJoinGroup", { "group_id": 200783696 });
+        connect.send("VKWebAppJoinGroup", { "group_id": 192580900 });
         connect.subscribe((e) => {
             switch (e.detail.type) {
                 case 'VKWebAppGetUserInfoResult':
