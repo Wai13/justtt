@@ -36,7 +36,7 @@ module.exports = {
   // База данных
 
   urlDB:          'mongodb+srv://Waii:admin@cluster0.hws9t.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
-  nameDB:         'myFirstDatabase',
+  nameDB:         'Waii',
 
   // Награды за топ
 
