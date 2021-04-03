@@ -142,7 +142,7 @@ import './Home.css'
 
 
             <CardGrid>
-                <Card className="PopolImg" size="m" onClick={() => props.this.state.active === 'PaperScroll' ? connect.send("VKWebAppOpenApp", { "app_id": 7420483, "location": "m677_1_1234" }) : props.this.state.active === 'VKCoin' ? connect.send("VKWebAppOpenApp", { "app_id": 6915965, "location": "x389246356_1000000_1234_1" }) : props.this.state.active === 'CoronaCoin' ? connect.send("VKWebAppOpenApp", { "app_id": 7349811, "location": "merchant389246356_100000" }) : props.this.state.active === 'GameCoin' ? connect.send("VKWebAppOpenApp", { "app_id": 7652467, "location": "m608762142_100_1234" }) : ''}>
+                <Card className="PopolImg" size="m" onClick={() => props.this.state.active === 'PaperScroll' ? connect.send("VKWebAppOpenApp", { "app_id": 7803614, "location": "m677_1_1234" }) : props.this.state.active === 'VKCoin' ? connect.send("VKWebAppOpenApp", { "app_id": 6915965, "location": "x389246356_1000000_1234_1" }) : props.this.state.active === 'CoronaCoin' ? connect.send("VKWebAppOpenApp", { "app_id": 7349811, "location": "merchant389246356_100000" }) : props.this.state.active === 'GameCoin' ? connect.send("VKWebAppOpenApp", { "app_id": 7652467, "location": "m608762142_100_1234" }) : ''}>
                     
                     <center><span><Icon28MoneySendOutline width={32} height={32} fill={'white'} style={{ marginTop: '5%', marginBottom: '1%'}} /></span><h3 style={{ color: '#fff', marginTop:0, marginBottom:'5%' }}>Пополнить</h3></center>
                     

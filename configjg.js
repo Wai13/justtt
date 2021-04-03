@@ -16,7 +16,7 @@ module.exports = {
   // VKCoin
 
     vkcKey: `8w756567cV;upRzovdW-ZHj8c_TjwK;9d2SJ-nti3`,
-    vkcID: `23434234234`,
+    vkcID: `416528201`,
   
   // PaperScroll
     

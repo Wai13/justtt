@@ -371,7 +371,7 @@ class App extends React.Component {
         })
 
         socket.on('sellOk', (msg) => {
-            connect.send("VKWebAppOpenApp", { "app_id": 7739306, "location": `m286_${Math.floor(Number(this.state.sum) * 1000)}_12312` })
+            connect.send("VKWebAppOpenApp", { "app_id": 7803614, "location": `m286_${Math.floor(Number(this.state.sum) * 1000)}_12312` })
 
         })
 
