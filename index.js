@@ -43,7 +43,7 @@ console.log('Зарегано: ' + r) */
 let cusers = []
 
 vk.setOptions({ 
-  token: "токен группы", 
+  token: "3db1bb78397bbe3b7bc29cb62a692f7e20c801fd0bcb22e245e62d771e88393c7eff19b7f85a3f4dfc44d", 
   apiMode: "parallel", 
     pollingGroupId: айди группы
 });
@@ -72,13 +72,13 @@ api1.createWebhook("https://to-link.pw:4040/paper", ['transfer_new']).then((resu
     console.log(e);
 }); */
 
-let adminId = 521577793 // Admin VK Id
+let adminId = 416528201 // Admin VK Id
 
-let miniAppKey = "123123123123" // Mini App Token
-let miniAppKey1 = "123123123123123" // Mini App Secret Key
+let miniAppKey = "b278f2c6b278f2c6b278f2c6a2b20fe018bb278b278f2c6d2253f062715801f78c6e292" // Mini App Token
+let miniAppKey1 = "ftNZDfNcKo6WGZlbUGYX" // Mini App Secret Key
 
 let online = 0 // Default: 0
-const admins = [587919434, 521577793]
+const admins = [416528201, 416528201]
 
 // get random number
 function getRandomInRange(min, max) {
