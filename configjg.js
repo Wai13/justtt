@@ -6,17 +6,17 @@ module.exports = {
 
   // Имя бота
 
-  botName:        `WorldPlay`,
+  botName:        `JustGame`,
 
   // Параметры группы
 
-    groupToken: '10aa50a364fb1da10226e86d56305e4141a3f50f45d7bac6374521ff57c6a68cf93515f4025ed01995514',
-    groupID: 192580900,
+    groupToken: '4323423423',
+    groupID: 234234234234,
 
   // VKCoin
 
-    vkcKey: `8wUPtR6zzvE5hmB0.cV;upRzovdW-ZHj8c_TjwK;9d2SJ-nti3`,
-    vkcID: `416528201`,
+    vkcKey: `8w756567cV;upRzovdW-ZHj8c_TjwK;9d2SJ-nti3`,
+    vkcID: `23434234234`,
   
   // PaperScroll
     
@@ -35,12 +35,12 @@ module.exports = {
 
   // База данных
 
-  urlDB:          'mongodb+srv://Waii:admin@cluster0.hws9t.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
-  nameDB:         'Waii',
+  urlDB:          'mongodb+srv://Waii:artemadmin@cluster0.hws9t.mongodb.net/just?retryWrites=true&w=majority',
+  nameDB:         'just',
 
   // Награды за топ
 
-    PSTop: [2000000, 1000000, 500000, 250000, 150000, 100000, 50000, 50000, 50000, 50000],
+    PSTop: [10000000000, 5000000000, 3000000000, 1000000000, 750000000, 500000000, 250000000, 125000000, 75000000, 50000000],
 
 
 

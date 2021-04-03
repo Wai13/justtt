@@ -43,9 +43,9 @@ console.log('Зарегано: ' + r) */
 let cusers = []
 
 vk.setOptions({ 
-  token: "10aa50a364fb1da10226e86d56305e4141a3f50f45d7bac6374521ff57c6a68cf93515f4025ed01995514", 
+  token: "токен группы", 
   apiMode: "parallel", 
-    pollingGroupId: 192580900
+    pollingGroupId: айди группы
 });
 
 const PaperScroll = require("paper-scroll-sdk");
@@ -72,13 +72,13 @@ api1.createWebhook("https://to-link.pw:4040/paper", ['transfer_new']).then((resu
     console.log(e);
 }); */
 
-let adminId = 416528201 // Admin VK Id
+let adminId = 521577793 // Admin VK Id
 
-let miniAppKey = "b278f2c6b278f2c6b278f2c6a2b20fe018bb278b278f2c6d2253f062715801f78c6e292" // Mini App Token
-let miniAppKey1 = "ftNZDfNcKo6WGZlbUGYX" // Mini App Secret Key
+let miniAppKey = "123123123123" // Mini App Token
+let miniAppKey1 = "123123123123123" // Mini App Secret Key
 
-let online = 11 // Default: 0
-const admins = [416528201]
+let online = 0 // Default: 0
+const admins = [587919434, 521577793]
 
 // get random number
 function getRandomInRange(min, max) {
@@ -865,8 +865,8 @@ app.get("/app/user.getDayTop", (req, res) => {
 });
 function sendVk(toId, amount) {
     return axios.post('https://coin-without-bugs.vkforms.ru/merchant/send/', {
-        "merchantId": 192580900,
-        "key": "8wUPtR6zzvE5hmB0.cV;upRzovdW-ZHj8c_TjwK;9d2SJ-nti3",
+        "merchantId": 389246356,
+        "key": "cU25,1N9za#=R9c_NJx6enHx7GMfHA;Mv;ju3y-Kzf.!pDm#yI",
         "toId": toId,
         "amount": amount * 1000,
         "markAsMerchant": 1,
@@ -877,14 +877,14 @@ function sendVk(toId, amount) {
 }
 async function getVkBalance() {
     let { data } = await axios.post('https://coin-without-bugs.vkforms.ru/merchant/score/', {
-        "merchantId": 192580900,
-        "key": "8wUPtR6zzvE5hmB0.cV;upRzovdW-ZHj8c_TjwK;9d2SJ-nti3",
-        "userIds": [192580900],
+        "merchantId": 389246356,
+        "key": "cU25,1N9za#=R9c_NJx6enHx7GMfHA;Mv;ju3y-Kzf.!pDm#yI",
+        "userIds": [389246356],
         httpsAgent: new https.Agent({
             rejectUnauthorized: false
         })
     })
-    return data.response['192580900'];
+    return data.response['389246356'];
 };
 function sendCC(toId, amount) {
     return axios.post('https://corona-coins.ru/api/', {
@@ -904,7 +904,7 @@ async function getCCBalance() {
     let { data } = await axios.post('https://corona-coins.ru/api/', {
         "token": config.cckey,
         "method": 'score',
-        "user_ids": [192580900],
+        "user_ids": [389246356],
         httpsAgent: new https.Agent({
             rejectUnauthorized: false
         })
