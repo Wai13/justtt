@@ -7,7 +7,7 @@ import App from './App';
 import registerServiceWorker from './sw';
 
 // Init VK App
-connect.send('VKWebAppInit', {});
+connect.send('VKWebAppInit');
 connect.subscribe((e) => {
     switch (e.detail.type) {
         case 'VKWebAppUpdateConfig':
